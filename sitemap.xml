@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.yuan-cong.com/2021/08/24/Another2021p2/</loc>
+    
+    <lastmod>2021-08-24</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.yuan-cong.com/2021/08/24/Another2021p1/</loc>
     
     <lastmod>2021-08-23</lastmod>
@@ -60,7 +67,7 @@
 
   <url>
     <loc>https://blog.yuan-cong.com/</loc>
-    <lastmod>2021-08-23</lastmod>
+    <lastmod>2021-08-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -68,42 +75,42 @@
   
   <url>
     <loc>https://blog.yuan-cong.com/tags/Chinese/</loc>
-    <lastmod>2021-08-23</lastmod>
+    <lastmod>2021-08-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.yuan-cong.com/tags/English/</loc>
-    <lastmod>2021-08-23</lastmod>
+    <lastmod>2021-08-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.yuan-cong.com/tags/Japanese/</loc>
-    <lastmod>2021-08-23</lastmod>
+    <lastmod>2021-08-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.yuan-cong.com/tags/Work/</loc>
-    <lastmod>2021-08-23</lastmod>
+    <lastmod>2021-08-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.yuan-cong.com/tags/Translation/</loc>
-    <lastmod>2021-08-23</lastmod>
+    <lastmod>2021-08-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.yuan-cong.com/tags/Note/</loc>
-    <lastmod>2021-08-23</lastmod>
+    <lastmod>2021-08-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
