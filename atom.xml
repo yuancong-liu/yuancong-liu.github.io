@@ -58,9 +58,9 @@
     
     
     
-    <category term="English" scheme="https://blog.yuan-cong.com/tags/English/"/>
-    
     <category term="Work" scheme="https://blog.yuan-cong.com/tags/Work/"/>
+    
+    <category term="English" scheme="https://blog.yuan-cong.com/tags/English/"/>
     
   </entry>
   
@@ -114,8 +114,8 @@
   
   <entry>
     <title>文 | 加入</title>
-    <link href="https://blog.yuan-cong.com/2020/10/16/%E5%8A%A0%E5%85%A5/"/>
-    <id>https://blog.yuan-cong.com/2020/10/16/%E5%8A%A0%E5%85%A5/</id>
+    <link href="https://blog.yuan-cong.com/2020/10/16/Join/"/>
+    <id>https://blog.yuan-cong.com/2020/10/16/Join/</id>
     <published>2020-10-16T07:04:50.000Z</published>
     <updated>2021-08-31T20:21:26.239Z</updated>
     
@@ -139,8 +139,8 @@
   
   <entry>
     <title>文 | 煙灰</title>
-    <link href="https://blog.yuan-cong.com/2020/06/30/%E7%85%99%E7%81%B0/"/>
-    <id>https://blog.yuan-cong.com/2020/06/30/%E7%85%99%E7%81%B0/</id>
+    <link href="https://blog.yuan-cong.com/2020/06/30/CigarAsh/"/>
+    <id>https://blog.yuan-cong.com/2020/06/30/CigarAsh/</id>
     <published>2020-06-30T06:27:18.000Z</published>
     <updated>2021-08-31T20:21:44.044Z</updated>
     
@@ -163,8 +163,8 @@
   
   <entry>
     <title>筆記 | 遊戲化實戰</title>
-    <link href="https://blog.yuan-cong.com/2020/05/24/%E9%81%8A%E6%88%B2%E5%8C%96%E5%AF%A6%E6%88%B0/"/>
-    <id>https://blog.yuan-cong.com/2020/05/24/%E9%81%8A%E6%88%B2%E5%8C%96%E5%AF%A6%E6%88%B0/</id>
+    <link href="https://blog.yuan-cong.com/2020/05/24/Gamification/"/>
+    <id>https://blog.yuan-cong.com/2020/05/24/Gamification/</id>
     <published>2020-05-24T08:42:20.000Z</published>
     <updated>2021-08-31T20:22:26.069Z</updated>
     
@@ -188,8 +188,8 @@
   
   <entry>
     <title>譯 | 首先記住這些吧！《蠟筆小新》系列入門專欄</title>
-    <link href="https://blog.yuan-cong.com/2020/05/24/%E3%80%8A%E8%A0%9F%E7%AD%86%E5%B0%8F%E6%96%B0%E3%80%8B%E7%B3%BB%E5%88%97%E5%85%A5%E9%96%80%E5%B0%88%E6%AC%84/"/>
-    <id>https://blog.yuan-cong.com/2020/05/24/%E3%80%8A%E8%A0%9F%E7%AD%86%E5%B0%8F%E6%96%B0%E3%80%8B%E7%B3%BB%E5%88%97%E5%85%A5%E9%96%80%E5%B0%88%E6%AC%84/</id>
+    <link href="https://blog.yuan-cong.com/2020/05/24/CrayonShinchan/"/>
+    <id>https://blog.yuan-cong.com/2020/05/24/CrayonShinchan/</id>
     <published>2020-05-23T19:38:02.000Z</published>
     <updated>2021-08-31T20:19:37.540Z</updated>
     
@@ -212,8 +212,8 @@
   
   <entry>
     <title>リフレーム</title>
-    <link href="https://blog.yuan-cong.com/2020/01/12/%E3%83%AA%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0/"/>
-    <id>https://blog.yuan-cong.com/2020/01/12/%E3%83%AA%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0/</id>
+    <link href="https://blog.yuan-cong.com/2020/01/12/Reframe/"/>
+    <id>https://blog.yuan-cong.com/2020/01/12/Reframe/</id>
     <published>2020-01-12T09:45:26.000Z</published>
     <updated>2021-07-19T09:46:18.122Z</updated>
     
@@ -228,16 +228,16 @@
     
     
     
-    <category term="Japanese" scheme="https://blog.yuan-cong.com/tags/Japanese/"/>
-    
     <category term="Work" scheme="https://blog.yuan-cong.com/tags/Work/"/>
+    
+    <category term="Japanese" scheme="https://blog.yuan-cong.com/tags/Japanese/"/>
     
   </entry>
   
   <entry>
     <title>苦手なものを好きなものに変える方法</title>
-    <link href="https://blog.yuan-cong.com/2020/01/12/%E8%8B%A6%E6%89%8B%E3%81%AA%E3%82%82%E3%81%AE%E3%82%92%E5%A5%BD%E3%81%8D%E3%81%AA%E3%82%82%E3%81%AE%E3%81%AB%E5%A4%89%E3%81%88%E3%82%8B%E6%96%B9%E6%B3%95/"/>
-    <id>https://blog.yuan-cong.com/2020/01/12/%E8%8B%A6%E6%89%8B%E3%81%AA%E3%82%82%E3%81%AE%E3%82%92%E5%A5%BD%E3%81%8D%E3%81%AA%E3%82%82%E3%81%AE%E3%81%AB%E5%A4%89%E3%81%88%E3%82%8B%E6%96%B9%E6%B3%95/</id>
+    <link href="https://blog.yuan-cong.com/2020/01/12/Nigate/"/>
+    <id>https://blog.yuan-cong.com/2020/01/12/Nigate/</id>
     <published>2020-01-12T09:42:22.000Z</published>
     <updated>2021-07-19T09:45:05.145Z</updated>
     
@@ -252,9 +252,9 @@
     
     
     
-    <category term="Japanese" scheme="https://blog.yuan-cong.com/tags/Japanese/"/>
-    
     <category term="Work" scheme="https://blog.yuan-cong.com/tags/Work/"/>
+    
+    <category term="Japanese" scheme="https://blog.yuan-cong.com/tags/Japanese/"/>
     
   </entry>
   
@@ -278,11 +278,11 @@
     
     <category term="Chinese" scheme="https://blog.yuan-cong.com/tags/Chinese/"/>
     
+    <category term="Work" scheme="https://blog.yuan-cong.com/tags/Work/"/>
+    
     <category term="English" scheme="https://blog.yuan-cong.com/tags/English/"/>
     
     <category term="Japanese" scheme="https://blog.yuan-cong.com/tags/Japanese/"/>
-    
-    <category term="Work" scheme="https://blog.yuan-cong.com/tags/Work/"/>
     
   </entry>
   
