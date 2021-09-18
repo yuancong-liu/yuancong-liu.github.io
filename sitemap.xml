@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.yuan-cong.com/2021/08/25/Text-as-Data%20report/</loc>
+    
+    <lastmod>2021-09-15</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.yuan-cong.com/2020/01/12/Reframe/</loc>
     
     <lastmod>2021-09-15</lastmod>
@@ -10,13 +17,6 @@
   
   <url>
     <loc>https://blog.yuan-cong.com/2021/09/16/JavascriptNote/</loc>
-    
-    <lastmod>2021-09-15</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.yuan-cong.com/2021/08/25/Text-as-Data%20report/</loc>
     
     <lastmod>2021-09-15</lastmod>
     
@@ -102,7 +102,7 @@
 
   <url>
     <loc>https://blog.yuan-cong.com/</loc>
-    <lastmod>2021-09-15</lastmod>
+    <lastmod>2021-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -110,77 +110,77 @@
   
   <url>
     <loc>https://blog.yuan-cong.com/tags/Chinese/</loc>
-    <lastmod>2021-09-15</lastmod>
+    <lastmod>2021-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.yuan-cong.com/tags/Translation/</loc>
-    <lastmod>2021-09-15</lastmod>
+    <lastmod>2021-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.yuan-cong.com/tags/Work/</loc>
-    <lastmod>2021-09-15</lastmod>
+    <lastmod>2021-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.yuan-cong.com/tags/English/</loc>
-    <lastmod>2021-09-15</lastmod>
+    <lastmod>2021-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.yuan-cong.com/tags/Japanese/</loc>
-    <lastmod>2021-09-15</lastmod>
+    <lastmod>2021-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.yuan-cong.com/tags/Programming/</loc>
-    <lastmod>2021-09-15</lastmod>
+    <lastmod>2021-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.yuan-cong.com/tags/Javascript/</loc>
-    <lastmod>2021-09-15</lastmod>
+    <lastmod>2021-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.yuan-cong.com/tags/Front-end/</loc>
-    <lastmod>2021-09-15</lastmod>
+    <lastmod>2021-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.yuan-cong.com/tags/Note/</loc>
-    <lastmod>2021-09-15</lastmod>
+    <lastmod>2021-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.yuan-cong.com/tags/Machine-Learning/</loc>
-    <lastmod>2021-09-15</lastmod>
+    <lastmod>2021-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.yuan-cong.com/tags/Python/</loc>
-    <lastmod>2021-09-15</lastmod>
+    <lastmod>2021-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
