@@ -6,7 +6,7 @@
   <link href="https://blog.yuan-cong.com/atom.xml" rel="self"/>
   
   <link href="https://blog.yuan-cong.com/"/>
-  <updated>2021-09-18T15:18:50.364Z</updated>
+  <updated>2021-09-18T15:18:50.000Z</updated>
   <id>https://blog.yuan-cong.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.yuan-cong.com/2021/09/18/JavascriptNoteClass/"/>
     <id>https://blog.yuan-cong.com/2021/09/18/JavascriptNoteClass/</id>
     <published>2021-09-18T15:04:50.000Z</published>
-    <updated>2021-09-18T15:18:50.364Z</updated>
+    <updated>2021-09-18T15:18:50.000Z</updated>
     
     
       
@@ -50,7 +50,7 @@
     <link href="https://blog.yuan-cong.com/2021/09/16/JavascriptNote/"/>
     <id>https://blog.yuan-cong.com/2021/09/16/JavascriptNote/</id>
     <published>2021-09-15T17:04:50.000Z</published>
-    <updated>2021-09-18T15:19:04.876Z</updated>
+    <updated>2021-09-18T15:19:04.000Z</updated>
     
     
       
@@ -79,7 +79,7 @@
     <link href="https://blog.yuan-cong.com/2021/09/06/Another2021p4/"/>
     <id>https://blog.yuan-cong.com/2021/09/06/Another2021p4/</id>
     <published>2021-09-06T10:17:50.000Z</published>
-    <updated>2021-09-06T10:22:34.339Z</updated>
+    <updated>2021-09-06T10:22:34.000Z</updated>
     
     
       
@@ -104,7 +104,7 @@
     <link href="https://blog.yuan-cong.com/2021/08/31/Another2021p3/"/>
     <id>https://blog.yuan-cong.com/2021/08/31/Another2021p3/</id>
     <published>2021-08-31T10:35:50.000Z</published>
-    <updated>2021-09-13T11:11:44.978Z</updated>
+    <updated>2021-09-13T11:11:44.000Z</updated>
     
     
       
@@ -129,7 +129,7 @@
     <link href="https://blog.yuan-cong.com/2021/08/25/Text-as-Data%20report/"/>
     <id>https://blog.yuan-cong.com/2021/08/25/Text-as-Data%20report/</id>
     <published>2021-08-25T15:12:50.000Z</published>
-    <updated>2021-09-15T20:15:49.970Z</updated>
+    <updated>2021-09-15T20:15:49.000Z</updated>
     
     
       
@@ -143,9 +143,9 @@
     
     
     
-    <category term="Work" scheme="https://blog.yuan-cong.com/tags/Work/"/>
-    
     <category term="English" scheme="https://blog.yuan-cong.com/tags/English/"/>
+    
+    <category term="Work" scheme="https://blog.yuan-cong.com/tags/Work/"/>
     
     <category term="Programming" scheme="https://blog.yuan-cong.com/tags/Programming/"/>
     
@@ -160,7 +160,7 @@
     <link href="https://blog.yuan-cong.com/2021/08/24/Another2021p2/"/>
     <id>https://blog.yuan-cong.com/2021/08/24/Another2021p2/</id>
     <published>2021-08-24T07:40:50.000Z</published>
-    <updated>2021-09-06T10:19:03.961Z</updated>
+    <updated>2021-09-06T10:19:03.000Z</updated>
     
     
       
@@ -185,7 +185,7 @@
     <link href="https://blog.yuan-cong.com/2021/08/24/Another2021p1/"/>
     <id>https://blog.yuan-cong.com/2021/08/24/Another2021p1/</id>
     <published>2021-08-23T17:04:50.000Z</published>
-    <updated>2021-09-06T10:18:56.971Z</updated>
+    <updated>2021-09-06T10:18:56.000Z</updated>
     
     
       
@@ -210,7 +210,7 @@
     <link href="https://blog.yuan-cong.com/2020/10/16/Join/"/>
     <id>https://blog.yuan-cong.com/2020/10/16/Join/</id>
     <published>2020-10-16T07:04:50.000Z</published>
-    <updated>2021-08-31T20:21:26.239Z</updated>
+    <updated>2021-08-31T20:21:26.000Z</updated>
     
     
       
@@ -236,7 +236,7 @@
     <link href="https://blog.yuan-cong.com/2020/06/30/CigarAsh/"/>
     <id>https://blog.yuan-cong.com/2020/06/30/CigarAsh/</id>
     <published>2020-06-30T06:27:18.000Z</published>
-    <updated>2021-08-31T20:21:44.044Z</updated>
+    <updated>2021-08-31T20:21:44.000Z</updated>
     
     
       
@@ -261,7 +261,7 @@
     <link href="https://blog.yuan-cong.com/2020/05/24/Gamification/"/>
     <id>https://blog.yuan-cong.com/2020/05/24/Gamification/</id>
     <published>2020-05-24T08:42:20.000Z</published>
-    <updated>2021-08-31T20:22:26.069Z</updated>
+    <updated>2021-08-31T20:22:26.000Z</updated>
     
     
       
@@ -287,7 +287,7 @@
     <link href="https://blog.yuan-cong.com/2020/05/24/CrayonShinchan/"/>
     <id>https://blog.yuan-cong.com/2020/05/24/CrayonShinchan/</id>
     <published>2020-05-23T19:38:02.000Z</published>
-    <updated>2021-08-31T20:19:37.540Z</updated>
+    <updated>2021-08-31T20:19:37.000Z</updated>
     
     
       
@@ -312,7 +312,7 @@
     <link href="https://blog.yuan-cong.com/2020/01/12/Reframe/"/>
     <id>https://blog.yuan-cong.com/2020/01/12/Reframe/</id>
     <published>2020-01-12T09:45:26.000Z</published>
-    <updated>2021-09-15T20:06:40.441Z</updated>
+    <updated>2021-09-15T20:06:40.000Z</updated>
     
     
       
@@ -326,9 +326,9 @@
     
     
     
-    <category term="Work" scheme="https://blog.yuan-cong.com/tags/Work/"/>
-    
     <category term="Japanese" scheme="https://blog.yuan-cong.com/tags/Japanese/"/>
+    
+    <category term="Work" scheme="https://blog.yuan-cong.com/tags/Work/"/>
     
   </entry>
   
@@ -337,7 +337,7 @@
     <link href="https://blog.yuan-cong.com/2020/01/12/Nigate/"/>
     <id>https://blog.yuan-cong.com/2020/01/12/Nigate/</id>
     <published>2020-01-12T09:42:22.000Z</published>
-    <updated>2021-07-19T09:45:05.145Z</updated>
+    <updated>2021-07-19T09:45:05.000Z</updated>
     
     
       
@@ -351,9 +351,9 @@
     
     
     
-    <category term="Work" scheme="https://blog.yuan-cong.com/tags/Work/"/>
-    
     <category term="Japanese" scheme="https://blog.yuan-cong.com/tags/Japanese/"/>
+    
+    <category term="Work" scheme="https://blog.yuan-cong.com/tags/Work/"/>
     
   </entry>
   
@@ -362,7 +362,7 @@
     <link href="https://blog.yuan-cong.com/2018/09/01/Documentary-Nian-Nian/"/>
     <id>https://blog.yuan-cong.com/2018/09/01/Documentary-Nian-Nian/</id>
     <published>2018-09-01T07:48:07.000Z</published>
-    <updated>2021-07-19T08:25:17.398Z</updated>
+    <updated>2021-07-19T08:25:17.000Z</updated>
     
     
       
@@ -378,11 +378,11 @@
     
     <category term="Chinese" scheme="https://blog.yuan-cong.com/tags/Chinese/"/>
     
-    <category term="Work" scheme="https://blog.yuan-cong.com/tags/Work/"/>
-    
     <category term="English" scheme="https://blog.yuan-cong.com/tags/English/"/>
     
     <category term="Japanese" scheme="https://blog.yuan-cong.com/tags/Japanese/"/>
+    
+    <category term="Work" scheme="https://blog.yuan-cong.com/tags/Work/"/>
     
   </entry>
   
