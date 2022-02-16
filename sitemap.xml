@@ -158,6 +158,20 @@
   </url>
   
   <url>
+    <loc>https://blog.yuan-cong.com/tags/Japanese/</loc>
+    <lastmod>2022-02-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.yuan-cong.com/tags/Note/</loc>
+    <lastmod>2022-02-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.yuan-cong.com/tags/Programming/</loc>
     <lastmod>2022-02-16</lastmod>
     <changefreq>daily</changefreq>
@@ -173,20 +187,6 @@
   
   <url>
     <loc>https://blog.yuan-cong.com/tags/Front-end/</loc>
-    <lastmod>2022-02-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.yuan-cong.com/tags/Japanese/</loc>
-    <lastmod>2022-02-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.yuan-cong.com/tags/Note/</loc>
     <lastmod>2022-02-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
