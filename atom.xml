@@ -6,7 +6,7 @@
   <link href="https://blog.yuan-cong.com/atom.xml" rel="self"/>
   
   <link href="https://blog.yuan-cong.com/"/>
-  <updated>2022-02-16T09:17:26.551Z</updated>
+  <updated>2022-02-16T10:39:03.391Z</updated>
   <id>https://blog.yuan-cong.com/</id>
   
   <author>
@@ -17,11 +17,50 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Spring Boot Message 配置問題</title>
+    <title>Note | 用Spring Boot和Thymeleaf製作Todo系統 &lt;#1&gt;</title>
+    <link href="https://blog.yuan-cong.com/2022/02/16/TodoWithSpringBootAndThymeleaf/"/>
+    <id>https://blog.yuan-cong.com/2022/02/16/TodoWithSpringBootAndThymeleaf/</id>
+    <published>2022-02-16T09:23:14.000Z</published>
+    <updated>2022-02-16T10:39:03.391Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;要求&quot;&gt;&lt;a href=&quot;#要求&quot; class=&quot;headerlink&quot; title=&quot;要求&quot;&gt;&lt;/a&gt;要求&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Java 11&lt;/li&gt;
+&lt;li&gt;MySQL 5.7&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;前期準備&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Chinese" scheme="https://blog.yuan-cong.com/tags/Chinese/"/>
+    
+    <category term="Programming" scheme="https://blog.yuan-cong.com/tags/Programming/"/>
+    
+    <category term="Front-end" scheme="https://blog.yuan-cong.com/tags/Front-end/"/>
+    
+    <category term="Java" scheme="https://blog.yuan-cong.com/tags/Java/"/>
+    
+    <category term="Spring Boot" scheme="https://blog.yuan-cong.com/tags/Spring-Boot/"/>
+    
+    <category term="Back-end" scheme="https://blog.yuan-cong.com/tags/Back-end/"/>
+    
+    <category term="Thymeleaf" scheme="https://blog.yuan-cong.com/tags/Thymeleaf/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Note | Spring Boot Message 配置問題</title>
     <link href="https://blog.yuan-cong.com/2022/02/16/MessagesInSpringBoot/"/>
     <id>https://blog.yuan-cong.com/2022/02/16/MessagesInSpringBoot/</id>
     <published>2022-02-16T08:53:41.000Z</published>
-    <updated>2022-02-16T09:17:26.551Z</updated>
+    <updated>2022-02-16T10:39:02.140Z</updated>
     
     
       

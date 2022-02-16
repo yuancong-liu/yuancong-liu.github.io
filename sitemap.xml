@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.yuan-cong.com/2022/02/16/TodoWithSpringBootAndThymeleaf/</loc>
+    
+    <lastmod>2022-02-16</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.yuan-cong.com/2022/02/16/MessagesInSpringBoot/</loc>
     
     <lastmod>2022-02-16</lastmod>
@@ -144,6 +151,13 @@
   </url>
   
   <url>
+    <loc>https://blog.yuan-cong.com/tags/Note/</loc>
+    <lastmod>2022-02-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.yuan-cong.com/tags/English/</loc>
     <lastmod>2022-02-16</lastmod>
     <changefreq>daily</changefreq>
@@ -152,13 +166,6 @@
   
   <url>
     <loc>https://blog.yuan-cong.com/tags/Japanese/</loc>
-    <lastmod>2022-02-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.yuan-cong.com/tags/Note/</loc>
     <lastmod>2022-02-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -215,6 +222,13 @@
   
   <url>
     <loc>https://blog.yuan-cong.com/tags/Python/</loc>
+    <lastmod>2022-02-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.yuan-cong.com/tags/Thymeleaf/</loc>
     <lastmod>2022-02-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
