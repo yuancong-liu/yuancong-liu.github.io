@@ -6,7 +6,7 @@
   <link href="https://blog.yuan-cong.com/atom.xml" rel="self"/>
   
   <link href="https://blog.yuan-cong.com/"/>
-  <updated>2022-02-16T10:46:22.386Z</updated>
+  <updated>2022-02-26T09:48:21.193Z</updated>
   <id>https://blog.yuan-cong.com/</id>
   
   <author>
@@ -15,6 +15,40 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Note | cron表達式</title>
+    <link href="https://blog.yuan-cong.com/2022/02/26/Note-cron/"/>
+    <id>https://blog.yuan-cong.com/2022/02/26/Note-cron/</id>
+    <published>2022-02-26T09:22:11.000Z</published>
+    <updated>2022-02-26T09:48:21.193Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;課題中需要實現定期操作的功能，基本步驟如下：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;在有&lt;code&gt;@SpringBootApplication&lt;/code&gt;（就是Application類）的地方添加&lt;code&gt;@EnableScheduling&lt;/code&gt;；&lt;/li&gt;
+&lt;li&gt;在需</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Chinese" scheme="https://blog.yuan-cong.com/tags/Chinese/"/>
+    
+    <category term="Programming" scheme="https://blog.yuan-cong.com/tags/Programming/"/>
+    
+    <category term="Java" scheme="https://blog.yuan-cong.com/tags/Java/"/>
+    
+    <category term="Spring Boot" scheme="https://blog.yuan-cong.com/tags/Spring-Boot/"/>
+    
+    <category term="Back-end" scheme="https://blog.yuan-cong.com/tags/Back-end/"/>
+    
+  </entry>
   
   <entry>
     <title>Note | 用Spring Boot和Thymeleaf製作Todo系統 &lt;#1&gt;</title>
