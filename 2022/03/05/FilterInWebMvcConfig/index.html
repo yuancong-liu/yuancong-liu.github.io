@@ -14,7 +14,7 @@
 <meta property="og:description" content="問題課題中用到兩個過濾器，一個是用於輸出日誌到文本文件的LoggingFilter，另一個是用於檢查請求中是否有合規的Bearer Token的TokenFilter。 簡單寫一下兩個過濾器的定義： 1234567891011&#x2F;&#x2F;TokenFilter.java@Component@RequiredArgsConstructorpublic class TokenFilter extends On">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2022-03-05T12:57:50.000Z">
-<meta property="article:modified_time" content="2022-03-05T13:36:32.691Z">
+<meta property="article:modified_time" content="2022-03-05T13:37:02.208Z">
 <meta property="article:author" content="YUANCONG.L">
 <meta property="article:tag" content="Chinese">
 <meta property="article:tag" content="Programming">
@@ -181,8 +181,9 @@
 <p>有幾個需要注意的地方：</p>
 <ol>
 <li>由於泛型的關係，如果只寫<code>FilterRegistrationBean&lt;&gt;</code>或是直接寫<code>FilterRegistrationBean</code>會被編譯器認為是不安全的行為，不能通過編譯；</li>
-<li>幾個過濾器可以通過<code>filterRegistrationBean.setOrder(/*number*/)</code>來設定過濾器的發動順序，數字越小越優先，同時可以用<code>Ordered.HIGHEST_PRECEDENCE</code>和<code>Ordered.LOWEST_PRECEDENCE</code>來設置為最優先和最不優先（實質就是Integer可取範圍的最小值和最大值）。</li>
+<li>幾個過濾器可以通過<code>filterRegistrationBean.setOrder(/*number*/)</code>來設定過濾器的發動順序，數字越小越優先，同時可以用<code>Ordered.HIGHEST_PRECEDENCE</code>和<code>Ordered.LOWEST_PRECEDENCE</code>來設置為最優先和最不優先（實質就是Integer可取範圍的最小值和最大值）。<br></li>
 </ol>
+<p>-全文完-</p>
 
   </div>
 </article>
