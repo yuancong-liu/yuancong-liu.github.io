@@ -158,6 +158,13 @@
   </url>
   
   <url>
+    <loc>https://blog.yuan-cong.com/tags/Journal/</loc>
+    <lastmod>2022-03-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.yuan-cong.com/tags/Work/</loc>
     <lastmod>2022-03-05</lastmod>
     <changefreq>daily</changefreq>
@@ -166,6 +173,20 @@
   
   <url>
     <loc>https://blog.yuan-cong.com/tags/English/</loc>
+    <lastmod>2022-03-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.yuan-cong.com/tags/Japanese/</loc>
+    <lastmod>2022-03-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.yuan-cong.com/tags/Note/</loc>
     <lastmod>2022-03-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -187,13 +208,6 @@
   
   <url>
     <loc>https://blog.yuan-cong.com/tags/Front-end/</loc>
-    <lastmod>2022-03-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.yuan-cong.com/tags/Japanese/</loc>
     <lastmod>2022-03-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -236,20 +250,6 @@
   
   <url>
     <loc>https://blog.yuan-cong.com/tags/Thymeleaf/</loc>
-    <lastmod>2022-03-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.yuan-cong.com/tags/Note/</loc>
-    <lastmod>2022-03-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.yuan-cong.com/tags/Journal/</loc>
     <lastmod>2022-03-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
