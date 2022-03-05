@@ -6,14 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
-    <meta property="og:type" content="article">
-<meta property="og:title" content="UrlPatternMatch">
+    <meta name="description" content="問題課題中用到兩個過濾器，一個是用於輸出日誌到文本文件的LoggingFilter，另一個是用於檢查請求中是否有合規的Bearer Token的TokenFilter。 簡單寫一下兩個過濾器的定義： 1234567891011&#x2F;&#x2F;TokenFilter.java@Component@RequiredArgsConstructorpublic class TokenFilter extends On">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Note | 在WebMvcConfiguration介面中配置過濾器（Filter）">
 <meta property="og:url" content="https://blog.yuan-cong.com/2022/03/05/FilterInWebMvcConfig/index.html">
 <meta property="og:site_name" content="YUANCONG&#39;s blog">
+<meta property="og:description" content="問題課題中用到兩個過濾器，一個是用於輸出日誌到文本文件的LoggingFilter，另一個是用於檢查請求中是否有合規的Bearer Token的TokenFilter。 簡單寫一下兩個過濾器的定義： 1234567891011&#x2F;&#x2F;TokenFilter.java@Component@RequiredArgsConstructorpublic class TokenFilter extends On">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2022-03-05T12:57:50.000Z">
-<meta property="article:modified_time" content="2022-03-05T12:57:50.321Z">
+<meta property="article:modified_time" content="2022-03-05T13:36:32.691Z">
 <meta property="article:author" content="YUANCONG.L">
+<meta property="article:tag" content="Chinese">
+<meta property="article:tag" content="Programming">
+<meta property="article:tag" content="Java">
+<meta property="article:tag" content="Spring Boot">
+<meta property="article:tag" content="Back-end">
 <meta name="twitter:card" content="summary">
     
     
@@ -34,7 +41,7 @@
       
     
     <!-- title -->
-    <title>UrlPatternMatch</title>
+    <title>Note | 在WebMvcConfiguration介面中配置過濾器（Filter）</title>
     <!-- styles -->
     
 <link rel="stylesheet" href="/css/style.css">
@@ -97,21 +104,21 @@
     <div id="share" style="display: none">
       <ul>
   <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://blog.yuan-cong.com/2022/03/05/FilterInWebMvcConfig/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://blog.yuan-cong.com/2022/03/05/FilterInWebMvcConfig/&text=UrlPatternMatch"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://blog.yuan-cong.com/2022/03/05/FilterInWebMvcConfig/&title=UrlPatternMatch"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://blog.yuan-cong.com/2022/03/05/FilterInWebMvcConfig/&is_video=false&description=UrlPatternMatch"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="mailto:?subject=UrlPatternMatch&body=Check out this article: https://blog.yuan-cong.com/2022/03/05/FilterInWebMvcConfig/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://blog.yuan-cong.com/2022/03/05/FilterInWebMvcConfig/&title=UrlPatternMatch"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://blog.yuan-cong.com/2022/03/05/FilterInWebMvcConfig/&title=UrlPatternMatch"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://blog.yuan-cong.com/2022/03/05/FilterInWebMvcConfig/&title=UrlPatternMatch"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://blog.yuan-cong.com/2022/03/05/FilterInWebMvcConfig/&title=UrlPatternMatch"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://blog.yuan-cong.com/2022/03/05/FilterInWebMvcConfig/&name=UrlPatternMatch&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://blog.yuan-cong.com/2022/03/05/FilterInWebMvcConfig/&t=UrlPatternMatch"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://blog.yuan-cong.com/2022/03/05/FilterInWebMvcConfig/&text=Note | 在WebMvcConfiguration介面中配置過濾器（Filter）"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://blog.yuan-cong.com/2022/03/05/FilterInWebMvcConfig/&title=Note | 在WebMvcConfiguration介面中配置過濾器（Filter）"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://blog.yuan-cong.com/2022/03/05/FilterInWebMvcConfig/&is_video=false&description=Note | 在WebMvcConfiguration介面中配置過濾器（Filter）"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Note | 在WebMvcConfiguration介面中配置過濾器（Filter）&body=Check out this article: https://blog.yuan-cong.com/2022/03/05/FilterInWebMvcConfig/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://blog.yuan-cong.com/2022/03/05/FilterInWebMvcConfig/&title=Note | 在WebMvcConfiguration介面中配置過濾器（Filter）"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://blog.yuan-cong.com/2022/03/05/FilterInWebMvcConfig/&title=Note | 在WebMvcConfiguration介面中配置過濾器（Filter）"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://blog.yuan-cong.com/2022/03/05/FilterInWebMvcConfig/&title=Note | 在WebMvcConfiguration介面中配置過濾器（Filter）"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://blog.yuan-cong.com/2022/03/05/FilterInWebMvcConfig/&title=Note | 在WebMvcConfiguration介面中配置過濾器（Filter）"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://blog.yuan-cong.com/2022/03/05/FilterInWebMvcConfig/&name=Note | 在WebMvcConfiguration介面中配置過濾器（Filter）&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://blog.yuan-cong.com/2022/03/05/FilterInWebMvcConfig/&t=Note | 在WebMvcConfiguration介面中配置過濾器（Filter）"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
 </ul>
 
     </div>
     <div id="toc">
-      
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%95%8F%E9%A1%8C"><span class="toc-number">1.</span> <span class="toc-text">問題</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A7%A3%E6%B1%BA"><span class="toc-number">2.</span> <span class="toc-text">解決</span></a></li></ol>
     </div>
   </span>
 </div>
@@ -123,7 +130,7 @@
   <header>
     
     <h1 class="posttitle" itemprop="name headline">
-        UrlPatternMatch
+        Note | 在WebMvcConfiguration介面中配置過濾器（Filter）
     </h1>
 
 
@@ -144,13 +151,39 @@
       
 
       
+    <div class="article-tag">
+        <i class="fas fa-tag"></i>
+        <a class="tag-link-link" href="/tags/Back-end/" rel="tag">Back-end</a>, <a class="tag-link-link" href="/tags/Chinese/" rel="tag">Chinese</a>, <a class="tag-link-link" href="/tags/Java/" rel="tag">Java</a>, <a class="tag-link-link" href="/tags/Programming/" rel="tag">Programming</a>, <a class="tag-link-link" href="/tags/Spring-Boot/" rel="tag">Spring Boot</a>
+    </div>
+
 
     </div>
   </header>
   
 
   <div class="content" itemprop="articleBody">
-    
+    <h2 id="問題"><a href="#問題" class="headerlink" title="問題"></a>問題</h2><p>課題中用到兩個過濾器，一個是用於輸出日誌到文本文件的<code>LoggingFilter</code>，另一個是用於檢查請求中是否有合規的Bearer Token的<code>TokenFilter</code>。</p>
+<p>簡單寫一下兩個過濾器的定義：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//TokenFilter.java</span></span><br><span class="line"><span class="meta">@Component</span></span><br><span class="line"><span class="meta">@RequiredArgsConstructor</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">TokenFilter</span> <span class="keyword">extends</span> <span class="title">OncePerRequestFilter</span> </span>&#123;</span><br><span class="line">  <span class="keyword">private</span> <span class="keyword">final</span> TokenService tokenService;</span><br><span class="line">  <span class="keyword">private</span> <span class="keyword">final</span> ObjectMapper objectMapper;</span><br><span class="line">  <span class="keyword">private</span> <span class="keyword">final</span> MessageSource messageSource;</span><br><span class="line"></span><br><span class="line">  <span class="meta">@Override</span></span><br><span class="line">  <span class="function"><span class="keyword">protected</span> <span class="keyword">void</span> <span class="title">doFilterInternal</span><span class="params">()</span> </span>&#123;<span class="comment">/*...*/</span>&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//LoggingFilter.java</span></span><br><span class="line"><span class="meta">@Component</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">LoggingFilter</span> <span class="keyword">extends</span> <span class="title">OncePerRequestFilter</span> </span>&#123;</span><br><span class="line">  <span class="meta">@Override</span></span><br><span class="line">  <span class="function"><span class="keyword">protected</span> <span class="keyword">void</span> <span class="title">doFilterInternal</span><span class="params">()</span> </span>&#123;<span class="comment">/*...*/</span>&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>在之前，路徑匹配是直接定義在<code>doFilterInternal()</code>方法中的：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> (httpServletRequest.getRequestURI().equals(<span class="comment">/*requested url */</span>)) &#123;<span class="comment">/*...*/</span>&#125;</span><br></pre></td></tr></table></figure>
+
+<p>為了簡化程序，需要把這兩個過濾器的路徑匹配轉移到<code>WebMvcConfiguration</code>介面中完成。</p>
+<h2 id="解決"><a href="#解決" class="headerlink" title="解決"></a>解決</h2><p>用Lombok的<code>@RequiredArgsConstructor</code>註解在<code>WebMvcConfiguration</code>類中直接聲明兩個過濾器：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//WebMvcConfig.java</span></span><br><span class="line"><span class="meta">@Configuration</span></span><br><span class="line"><span class="meta">@RequiredArgsConstructor</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">WebMvcConfig</span> <span class="keyword">implements</span> <span class="title">WebMvcConfigurer</span> </span>&#123;</span><br><span class="line">  <span class="keyword">private</span> <span class="keyword">final</span> LoggingFilter loggingFilter;</span><br><span class="line">  <span class="keyword">private</span> <span class="keyword">final</span> TokenFilter tokenFilter;</span><br><span class="line">  <span class="comment">//...</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>這樣在註冊過濾器的時候就不再需要用構造函數來創建實例了。</p>
+<p>之後註冊新的過濾器（有兩個過濾器，所以需要寫兩個方法，這裡只展示一個）。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//WebMvcConfig.java</span></span><br><span class="line"><span class="meta">@Bean</span></span><br><span class="line"><span class="function">FilterRegistrationBean&lt;LoggingFilter&gt; <span class="title">loggingFilterRegistration</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  FilterRegistrationBean&lt;LoggingFilter&gt; filterRegistrationBean = <span class="keyword">new</span> FilterRegistrationBean&lt;&gt;(loggingFilter);</span><br><span class="line"></span><br><span class="line">  filterRegistrationBean.addUrlPatterns(<span class="string">&quot;/api/products&quot;</span>, <span class="string">&quot;/api/products/*&quot;</span>);</span><br><span class="line">  filterRegistrationBean.setName(<span class="string">&quot;Logging Filter&quot;</span>);</span><br><span class="line">  filterRegistrationBean.setOrder(<span class="number">1</span>);</span><br><span class="line"></span><br><span class="line">  <span class="keyword">return</span> filterRegistrationBean;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>有幾個需要注意的地方：</p>
+<ol>
+<li>由於泛型的關係，如果只寫<code>FilterRegistrationBean&lt;&gt;</code>或是直接寫<code>FilterRegistrationBean</code>會被編譯器認為是不安全的行為，不能通過編譯；</li>
+<li>幾個過濾器可以通過<code>filterRegistrationBean.setOrder(/*number*/)</code>來設定過濾器的發動順序，數字越小越優先，同時可以用<code>Ordered.HIGHEST_PRECEDENCE</code>和<code>Ordered.LOWEST_PRECEDENCE</code>來設置為最優先和最不優先（實質就是Integer可取範圍的最小值和最大值）。</li>
+</ol>
+
   </div>
 </article>
 
@@ -173,22 +206,22 @@
     </div>
 
     <div id="toc-footer" style="display: none">
-      
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%95%8F%E9%A1%8C"><span class="toc-number">1.</span> <span class="toc-text">問題</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A7%A3%E6%B1%BA"><span class="toc-number">2.</span> <span class="toc-text">解決</span></a></li></ol>
     </div>
 
     <div id="share-footer" style="display: none">
       <ul>
   <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://blog.yuan-cong.com/2022/03/05/FilterInWebMvcConfig/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://blog.yuan-cong.com/2022/03/05/FilterInWebMvcConfig/&text=UrlPatternMatch"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://blog.yuan-cong.com/2022/03/05/FilterInWebMvcConfig/&title=UrlPatternMatch"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://blog.yuan-cong.com/2022/03/05/FilterInWebMvcConfig/&is_video=false&description=UrlPatternMatch"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="mailto:?subject=UrlPatternMatch&body=Check out this article: https://blog.yuan-cong.com/2022/03/05/FilterInWebMvcConfig/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://blog.yuan-cong.com/2022/03/05/FilterInWebMvcConfig/&title=UrlPatternMatch"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://blog.yuan-cong.com/2022/03/05/FilterInWebMvcConfig/&title=UrlPatternMatch"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://blog.yuan-cong.com/2022/03/05/FilterInWebMvcConfig/&title=UrlPatternMatch"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://blog.yuan-cong.com/2022/03/05/FilterInWebMvcConfig/&title=UrlPatternMatch"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://blog.yuan-cong.com/2022/03/05/FilterInWebMvcConfig/&name=UrlPatternMatch&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://blog.yuan-cong.com/2022/03/05/FilterInWebMvcConfig/&t=UrlPatternMatch"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://blog.yuan-cong.com/2022/03/05/FilterInWebMvcConfig/&text=Note | 在WebMvcConfiguration介面中配置過濾器（Filter）"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://blog.yuan-cong.com/2022/03/05/FilterInWebMvcConfig/&title=Note | 在WebMvcConfiguration介面中配置過濾器（Filter）"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://blog.yuan-cong.com/2022/03/05/FilterInWebMvcConfig/&is_video=false&description=Note | 在WebMvcConfiguration介面中配置過濾器（Filter）"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Note | 在WebMvcConfiguration介面中配置過濾器（Filter）&body=Check out this article: https://blog.yuan-cong.com/2022/03/05/FilterInWebMvcConfig/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://blog.yuan-cong.com/2022/03/05/FilterInWebMvcConfig/&title=Note | 在WebMvcConfiguration介面中配置過濾器（Filter）"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://blog.yuan-cong.com/2022/03/05/FilterInWebMvcConfig/&title=Note | 在WebMvcConfiguration介面中配置過濾器（Filter）"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://blog.yuan-cong.com/2022/03/05/FilterInWebMvcConfig/&title=Note | 在WebMvcConfiguration介面中配置過濾器（Filter）"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://blog.yuan-cong.com/2022/03/05/FilterInWebMvcConfig/&title=Note | 在WebMvcConfiguration介面中配置過濾器（Filter）"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://blog.yuan-cong.com/2022/03/05/FilterInWebMvcConfig/&name=Note | 在WebMvcConfiguration介面中配置過濾器（Filter）&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://blog.yuan-cong.com/2022/03/05/FilterInWebMvcConfig/&t=Note | 在WebMvcConfiguration介面中配置過濾器（Filter）"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
 </ul>
 
     </div>
