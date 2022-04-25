@@ -6,7 +6,7 @@
   <link href="https://blog.yuan-cong.com/atom.xml" rel="self"/>
   
   <link href="https://blog.yuan-cong.com/"/>
-  <updated>2022-03-08T18:22:44.346Z</updated>
+  <updated>2022-04-25T14:14:30.712Z</updated>
   <id>https://blog.yuan-cong.com/</id>
   
   <author>
@@ -17,10 +17,63 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>關於本機IP訪問出現CORS跨域錯誤的問題</title>
+    <link href="https://blog.yuan-cong.com/2022/04/25/CorsError/"/>
+    <id>https://blog.yuan-cong.com/2022/04/25/CorsError/</id>
+    <published>2022-04-25T14:13:00.000Z</published>
+    <updated>2022-04-25T14:14:30.712Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;問題&quot;&gt;&lt;a href=&quot;#問題&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Chinese" scheme="https://blog.yuan-cong.com/tags/Chinese/"/>
+    
+    <category term="Programming" scheme="https://blog.yuan-cong.com/tags/Programming/"/>
+    
+    <category term="Front-end" scheme="https://blog.yuan-cong.com/tags/Front-end/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>文 | 日本日記 &lt;#01&gt;</title>
+    <link href="https://blog.yuan-cong.com/2022/04/15/JapanDiaryp1/"/>
+    <id>https://blog.yuan-cong.com/2022/04/15/JapanDiaryp1/</id>
+    <published>2022-04-15T14:45:24.000Z</published>
+    <updated>2022-04-18T14:44:42.428Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;入職兩個星期了，今天決定坐下來寫點東西&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Chinese" scheme="https://blog.yuan-cong.com/tags/Chinese/"/>
+    
+    <category term="Journal" scheme="https://blog.yuan-cong.com/tags/Journal/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Note | Spring Boot插入外部CSS樣式表</title>
     <link href="https://blog.yuan-cong.com/2022/03/09/InsertCss/"/>
     <id>https://blog.yuan-cong.com/2022/03/09/InsertCss/</id>
-    <published>2022-03-08T17:59:38.000Z</published>
+    <published>2022-03-08T16:59:38.000Z</published>
     <updated>2022-03-08T18:22:44.346Z</updated>
     
     
@@ -39,13 +92,13 @@
     
     <category term="Programming" scheme="https://blog.yuan-cong.com/tags/Programming/"/>
     
+    <category term="Front-end" scheme="https://blog.yuan-cong.com/tags/Front-end/"/>
+    
     <category term="Java" scheme="https://blog.yuan-cong.com/tags/Java/"/>
     
     <category term="Spring Boot" scheme="https://blog.yuan-cong.com/tags/Spring-Boot/"/>
     
     <category term="Back-end" scheme="https://blog.yuan-cong.com/tags/Back-end/"/>
-    
-    <category term="Front-end" scheme="https://blog.yuan-cong.com/tags/Front-end/"/>
     
   </entry>
   
@@ -53,7 +106,7 @@
     <title>Note | 在WebMvcConfiguration介面中配置過濾器（Filter）</title>
     <link href="https://blog.yuan-cong.com/2022/03/05/FilterInWebMvcConfig/"/>
     <id>https://blog.yuan-cong.com/2022/03/05/FilterInWebMvcConfig/</id>
-    <published>2022-03-05T12:57:50.000Z</published>
+    <published>2022-03-05T11:57:50.000Z</published>
     <updated>2022-03-05T13:37:02.208Z</updated>
     
     
@@ -84,7 +137,7 @@
     <title>文 | 講一講日本考學和求職的心路歷程</title>
     <link href="https://blog.yuan-cong.com/2022/03/05/BeforeLifeInJapan/"/>
     <id>https://blog.yuan-cong.com/2022/03/05/BeforeLifeInJapan/</id>
-    <published>2022-03-05T06:39:57.000Z</published>
+    <published>2022-03-05T05:39:57.000Z</published>
     <updated>2022-03-05T15:18:46.468Z</updated>
     
     
@@ -110,7 +163,7 @@
     <title>Note | cron表達式</title>
     <link href="https://blog.yuan-cong.com/2022/02/26/Note-cron/"/>
     <id>https://blog.yuan-cong.com/2022/02/26/Note-cron/</id>
-    <published>2022-02-26T09:22:11.000Z</published>
+    <published>2022-02-26T08:22:11.000Z</published>
     <updated>2022-02-26T09:51:52.558Z</updated>
     
     
@@ -144,7 +197,7 @@
     <title>Note | 用Spring Boot和Thymeleaf製作Todo系統 &lt;#1&gt;</title>
     <link href="https://blog.yuan-cong.com/2022/02/16/TodoWithSpringBootAndThymeleaf/"/>
     <id>https://blog.yuan-cong.com/2022/02/16/TodoWithSpringBootAndThymeleaf/</id>
-    <published>2022-02-16T09:23:14.000Z</published>
+    <published>2022-02-16T08:23:14.000Z</published>
     <updated>2022-02-16T10:46:22.386Z</updated>
     
     
@@ -167,13 +220,13 @@
     
     <category term="Programming" scheme="https://blog.yuan-cong.com/tags/Programming/"/>
     
+    <category term="Front-end" scheme="https://blog.yuan-cong.com/tags/Front-end/"/>
+    
     <category term="Java" scheme="https://blog.yuan-cong.com/tags/Java/"/>
     
     <category term="Spring Boot" scheme="https://blog.yuan-cong.com/tags/Spring-Boot/"/>
     
     <category term="Back-end" scheme="https://blog.yuan-cong.com/tags/Back-end/"/>
-    
-    <category term="Front-end" scheme="https://blog.yuan-cong.com/tags/Front-end/"/>
     
     <category term="Thymeleaf" scheme="https://blog.yuan-cong.com/tags/Thymeleaf/"/>
     
@@ -183,7 +236,7 @@
     <title>Note | Spring Boot Message 配置問題</title>
     <link href="https://blog.yuan-cong.com/2022/02/16/MessagesInSpringBoot/"/>
     <id>https://blog.yuan-cong.com/2022/02/16/MessagesInSpringBoot/</id>
-    <published>2022-02-16T08:53:41.000Z</published>
+    <published>2022-02-16T07:53:41.000Z</published>
     <updated>2022-02-16T10:39:02.140Z</updated>
     
     
@@ -214,7 +267,7 @@
     <title>Note | Javascript Note (Class)</title>
     <link href="https://blog.yuan-cong.com/2021/09/18/JavascriptNoteClass/"/>
     <id>https://blog.yuan-cong.com/2021/09/18/JavascriptNoteClass/</id>
-    <published>2021-09-18T15:04:50.000Z</published>
+    <published>2021-09-18T14:04:50.000Z</published>
     <updated>2021-09-18T15:18:50.000Z</updated>
     
     
@@ -229,11 +282,11 @@
     
     
     
-    <category term="English" scheme="https://blog.yuan-cong.com/tags/English/"/>
-    
     <category term="Programming" scheme="https://blog.yuan-cong.com/tags/Programming/"/>
     
     <category term="Front-end" scheme="https://blog.yuan-cong.com/tags/Front-end/"/>
+    
+    <category term="English" scheme="https://blog.yuan-cong.com/tags/English/"/>
     
     <category term="Javascript" scheme="https://blog.yuan-cong.com/tags/Javascript/"/>
     
@@ -243,7 +296,7 @@
     <title>Note | Javascript Note (Basic)</title>
     <link href="https://blog.yuan-cong.com/2021/09/16/JavascriptNote/"/>
     <id>https://blog.yuan-cong.com/2021/09/16/JavascriptNote/</id>
-    <published>2021-09-15T17:04:50.000Z</published>
+    <published>2021-09-15T16:04:50.000Z</published>
     <updated>2021-09-18T15:19:04.000Z</updated>
     
     
@@ -258,11 +311,11 @@
     
     
     
-    <category term="English" scheme="https://blog.yuan-cong.com/tags/English/"/>
-    
     <category term="Programming" scheme="https://blog.yuan-cong.com/tags/Programming/"/>
     
     <category term="Front-end" scheme="https://blog.yuan-cong.com/tags/Front-end/"/>
+    
+    <category term="English" scheme="https://blog.yuan-cong.com/tags/English/"/>
     
     <category term="Javascript" scheme="https://blog.yuan-cong.com/tags/Javascript/"/>
     
@@ -272,7 +325,7 @@
     <title>譯 | Another 2001 中文 &lt;#04&gt;</title>
     <link href="https://blog.yuan-cong.com/2021/09/06/Another2021p4/"/>
     <id>https://blog.yuan-cong.com/2021/09/06/Another2021p4/</id>
-    <published>2021-09-06T10:17:50.000Z</published>
+    <published>2021-09-06T09:17:50.000Z</published>
     <updated>2021-09-06T10:22:34.000Z</updated>
     
     
@@ -297,7 +350,7 @@
     <title>譯 | Another 2001 中文 &lt;#03&gt;</title>
     <link href="https://blog.yuan-cong.com/2021/08/31/Another2021p3/"/>
     <id>https://blog.yuan-cong.com/2021/08/31/Another2021p3/</id>
-    <published>2021-08-31T10:35:50.000Z</published>
+    <published>2021-08-31T09:35:50.000Z</published>
     <updated>2021-09-13T11:11:44.000Z</updated>
     
     
@@ -322,7 +375,7 @@
     <title>Note | Text-as-Data Coursework Report</title>
     <link href="https://blog.yuan-cong.com/2021/08/25/Text-as-Data%20report/"/>
     <id>https://blog.yuan-cong.com/2021/08/25/Text-as-Data%20report/</id>
-    <published>2021-08-25T15:12:50.000Z</published>
+    <published>2021-08-25T14:12:50.000Z</published>
     <updated>2021-09-15T20:15:49.000Z</updated>
     
     
@@ -337,11 +390,11 @@
     
     
     
+    <category term="Programming" scheme="https://blog.yuan-cong.com/tags/Programming/"/>
+    
     <category term="Work" scheme="https://blog.yuan-cong.com/tags/Work/"/>
     
     <category term="English" scheme="https://blog.yuan-cong.com/tags/English/"/>
-    
-    <category term="Programming" scheme="https://blog.yuan-cong.com/tags/Programming/"/>
     
     <category term="Machine Learning" scheme="https://blog.yuan-cong.com/tags/Machine-Learning/"/>
     
@@ -353,7 +406,7 @@
     <title>譯 | Another 2001 中文 &lt;#02&gt;</title>
     <link href="https://blog.yuan-cong.com/2021/08/24/Another2021p2/"/>
     <id>https://blog.yuan-cong.com/2021/08/24/Another2021p2/</id>
-    <published>2021-08-24T07:40:50.000Z</published>
+    <published>2021-08-24T06:40:50.000Z</published>
     <updated>2021-09-06T10:19:03.000Z</updated>
     
     
@@ -378,7 +431,7 @@
     <title>譯 | Another 2001 中文 &lt;#01&gt;</title>
     <link href="https://blog.yuan-cong.com/2021/08/24/Another2021p1/"/>
     <id>https://blog.yuan-cong.com/2021/08/24/Another2021p1/</id>
-    <published>2021-08-23T17:04:50.000Z</published>
+    <published>2021-08-23T16:04:50.000Z</published>
     <updated>2021-09-06T10:18:56.000Z</updated>
     
     
@@ -403,7 +456,7 @@
     <title>文 | 加入</title>
     <link href="https://blog.yuan-cong.com/2020/10/16/Join/"/>
     <id>https://blog.yuan-cong.com/2020/10/16/Join/</id>
-    <published>2020-10-16T07:04:50.000Z</published>
+    <published>2020-10-16T06:04:50.000Z</published>
     <updated>2021-08-31T20:21:26.000Z</updated>
     
     
@@ -429,7 +482,7 @@
     <title>文 | 煙灰</title>
     <link href="https://blog.yuan-cong.com/2020/06/30/CigarAsh/"/>
     <id>https://blog.yuan-cong.com/2020/06/30/CigarAsh/</id>
-    <published>2020-06-30T06:27:18.000Z</published>
+    <published>2020-06-30T05:27:18.000Z</published>
     <updated>2021-08-31T20:21:44.000Z</updated>
     
     
@@ -454,7 +507,7 @@
     <title>筆記 | 遊戲化實戰</title>
     <link href="https://blog.yuan-cong.com/2020/05/24/Gamification/"/>
     <id>https://blog.yuan-cong.com/2020/05/24/Gamification/</id>
-    <published>2020-05-24T08:42:20.000Z</published>
+    <published>2020-05-24T07:42:20.000Z</published>
     <updated>2021-08-31T20:22:26.000Z</updated>
     
     
@@ -480,7 +533,7 @@
     <title>譯 | 首先記住這些吧！《蠟筆小新》系列入門專欄</title>
     <link href="https://blog.yuan-cong.com/2020/05/24/CrayonShinchan/"/>
     <id>https://blog.yuan-cong.com/2020/05/24/CrayonShinchan/</id>
-    <published>2020-05-23T19:38:02.000Z</published>
+    <published>2020-05-23T18:38:02.000Z</published>
     <updated>2021-08-31T20:19:37.000Z</updated>
     
     
@@ -505,7 +558,7 @@
     <title>文 | リフレーム</title>
     <link href="https://blog.yuan-cong.com/2020/01/12/Reframe/"/>
     <id>https://blog.yuan-cong.com/2020/01/12/Reframe/</id>
-    <published>2020-01-12T09:45:26.000Z</published>
+    <published>2020-01-12T08:45:26.000Z</published>
     <updated>2021-09-15T20:06:40.000Z</updated>
     
     
@@ -521,60 +574,6 @@
     
     
     <category term="Work" scheme="https://blog.yuan-cong.com/tags/Work/"/>
-    
-    <category term="Japanese" scheme="https://blog.yuan-cong.com/tags/Japanese/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>苦手なものを好きなものに変える方法</title>
-    <link href="https://blog.yuan-cong.com/2020/01/12/Nigate/"/>
-    <id>https://blog.yuan-cong.com/2020/01/12/Nigate/</id>
-    <published>2020-01-12T09:42:22.000Z</published>
-    <updated>2021-07-19T09:45:05.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;問-1&quot;&gt;&lt;a href=&quot;#問-1&quot; class=&quot;headerlink&quot; title=&quot;問 1&quot;&gt;&lt;/a&gt;問 1&lt;/h3&gt;&lt;p&gt;苦手なものを一つ選び、自身の知り得る情報やこれまでの体験などをもとに、 その理由や背景について 400</summary>
-        
-      
-    
-    
-    
-    
-    <category term="Work" scheme="https://blog.yuan-cong.com/tags/Work/"/>
-    
-    <category term="Japanese" scheme="https://blog.yuan-cong.com/tags/Japanese/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Documentary &quot;Nian&#39; Nian&quot; (念念)</title>
-    <link href="https://blog.yuan-cong.com/2018/09/01/Documentary-Nian-Nian/"/>
-    <id>https://blog.yuan-cong.com/2018/09/01/Documentary-Nian-Nian/</id>
-    <published>2018-09-01T07:48:07.000Z</published>
-    <updated>2021-07-19T08:25:17.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QocgLpdHsrw&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot;</summary>
-        
-      
-    
-    
-    
-    
-    <category term="Chinese" scheme="https://blog.yuan-cong.com/tags/Chinese/"/>
-    
-    <category term="Work" scheme="https://blog.yuan-cong.com/tags/Work/"/>
-    
-    <category term="English" scheme="https://blog.yuan-cong.com/tags/English/"/>
     
     <category term="Japanese" scheme="https://blog.yuan-cong.com/tags/Japanese/"/>
     
