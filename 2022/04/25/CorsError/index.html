@@ -14,7 +14,7 @@
 <meta property="og:description" content="問題在開發環境下運行nuxt.js應用的時候，終端提示從http:&#x2F;&#x2F;[本機IP地址]:4000&#x2F;訪問，但是執行到需要axios的組件時，console卻提示CORS錯誤： 1Access to XMLHttpRequest at &amp;#x27;http:&#x2F;&#x2F;localhost:4000&#x2F;[目標url]&amp;#x27; from origin &amp;#x27;http:&#x2F;&#x2F;[本機IP地址]:4000&amp;#x2">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2022-04-25T14:13:00.000Z">
-<meta property="article:modified_time" content="2022-04-25T14:16:07.199Z">
+<meta property="article:modified_time" content="2022-04-25T14:17:38.004Z">
 <meta property="article:author" content="YUANCONG.L">
 <meta property="article:tag" content="Chinese">
 <meta property="article:tag" content="Programming">
@@ -194,7 +194,8 @@
 </tr>
 </tbody></table>
 <p><code>localhost</code>只到達傳輸層，不會解析成IP（到達TCP/IP）；<br><code>127.0.0.1</code>到達網絡層，是IP，但不是網路IP，所以無法解析成MAC地址，以及從外部訪問。</p>
-<h2 id="解決"><a href="#解決" class="headerlink" title="解決"></a>解決</h2><p>從錯誤信息可以看到，服務器的地址是<code>http://localhost:4000/</code>，和本機IP和<code>127.0.0.1</code>是不同源的，在開發環境下，如果沒有其他配置的話，會出現跨域錯誤。</p>
+<h2 id="解決"><a href="#解決" class="headerlink" title="解決"></a>解決</h2><p>從錯誤信息可以看到，服務器的地址是<code>http://localhost:4000/</code>，和本機IP和<code>127.0.0.1</code>是不同源的，在開發環境下，如果沒有其他配置的話，會出現跨域錯誤。<br><br></p>
+<p>-全文完-</p>
 
   </div>
 </article>

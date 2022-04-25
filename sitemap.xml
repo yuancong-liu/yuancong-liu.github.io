@@ -228,14 +228,7 @@
   </url>
   
   <url>
-    <loc>https://blog.yuan-cong.com/tags/Note/</loc>
-    <lastmod>2022-04-25</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.yuan-cong.com/tags/Back-end/</loc>
+    <loc>https://blog.yuan-cong.com/tags/Java/</loc>
     <lastmod>2022-04-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -249,7 +242,14 @@
   </url>
   
   <url>
-    <loc>https://blog.yuan-cong.com/tags/Java/</loc>
+    <loc>https://blog.yuan-cong.com/tags/Back-end/</loc>
+    <lastmod>2022-04-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.yuan-cong.com/tags/Note/</loc>
     <lastmod>2022-04-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
